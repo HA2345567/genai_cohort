@@ -1,0 +1,19 @@
+[project]
+name = "rag-project"
+version = "0.1.0"
+description = "PDF retrieval augmented generation project"
+requires-python = ">=3.13"
+dependencies = [
+    "sentence-transformers",
+    "langchain",
+    "langchain-community",
+    "langchain-text-splitters",
+    "tiktoken",
+    "chromadb",
+    "pypdf",
+    "python-dotenv",
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "langchain-huggingface>=1.2.2",
+]

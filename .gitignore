@@ -130,6 +130,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -174,3 +175,10 @@ cython_debug/
 .pypirc
 
 node_modules/
+
+# Local project files
+__pycache__/
+*.pyc
+.tmp/
+chroma_huggingface_db/
+*.sqlite3

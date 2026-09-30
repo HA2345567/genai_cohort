@@ -1,0 +1,27 @@
+
+# Embeddings
+langchain-huggingface
+sentence-transformers
+
+# RAG / LangChain
+langchain
+langchain-community
+langchain-text-splitters
+tiktoken
+
+# Vector Database
+chromadb
+
+# Document Loading
+pypdf
+
+# Environment Variables
+python-dotenv
+
+# Backend API
+fastapi
+uvicorn[standard]
+
+# Data Validation
+pydantic
+
